@@ -1,6 +1,6 @@
- **DENSENET_TEAM** 
+ **DENSENET** 
 
-**DESENET TEAM**
+**DESENET TEAM - Dmitriy Pavlov and Maksim Yashnikov**
  
 
 
@@ -31,7 +31,6 @@
 На задеполиный сайт можно пройти по [ссылке](https://densenet-project.streamlit.app)
 
 ![](https://github.com/mazda-01/DenseNet/blob/main/images/logo.jpg)
-<img src="images/bird_example.png" alt="Пример птицы из датасета" width="250">
 
 ***PS***
 
