@@ -173,9 +173,22 @@ st.markdown("""
     div[data-testid="stTextInput"] small {
         color: #cccccc !important;
     }
-    /* Чёрный текст в сайдбаре */
+    /* ЧЁРНЫЙ ТЕКСТ В САЙДБАРЕ */
     section[data-testid="stSidebar"] * {
         color: #000000 !important;
+    }
+    /* ЧЁРНЫЙ ТЕКСТ НА КНОПКАХ DEPLOY И ТРИ ТОЧКИ */
+    button[data-testid="stDeployButton"] span,
+    button[data-testid="stDeployButton"] svg,
+    button[kind="primary"] span,
+    button[kind="secondary"] span,
+    div[data-testid="stToolbar"] button svg,
+    div[data-testid="stToolbar"] button span {
+        color: #000000 !important;
+    }
+    div[data-testid="stToolbar"] button {
+        background-color: #ffffff !important;
+        border: 1px solid #ccc !important;
     }
     </style>
 """, unsafe_allow_html=True)
